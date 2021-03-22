@@ -16,4 +16,4 @@ Intelligent Photo shooter for my Mountain Bike
 
 ![Example_1](https://user-images.githubusercontent.com/4199937/112039057-e2425600-8b43-11eb-88a6-3969b59ddf99.jpg)
 
-<img src="https://user-images.githubusercontent.com/4199937/112039057-e2425600-8b43-11eb-88a6-3969b59ddf99.jpg" width="100" height="100" alt="Example_1">
+<img src="https://user-images.githubusercontent.com/4199937/112039057-e2425600-8b43-11eb-88a6-3969b59ddf99.jpg" width="50%" height="50%" alt="Example_1">
