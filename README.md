@@ -14,4 +14,4 @@ Intelligent Photo shooter for my Mountain Bike
 4. cvsdaf
 5. asdfv
 
-![Example_1](https://user-images.githubusercontent.com/4199937/112039057-e2425600-8b43-11eb-88a6-3969b59ddf99.jpg){:height="50%" width="50%"}
+![Example_1](https://user-images.githubusercontent.com/4199937/112039057-e2425600-8b43-11eb-88a6-3969b59ddf99.jpg){:height="700px" width="400px"}
