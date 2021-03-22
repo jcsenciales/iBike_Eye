@@ -1,7 +1,6 @@
 # iBike_Eye
 Intelligent Photo shooter for my Mountain Bike
 
-
 ## Description
 1. asd
 2. ssdf
@@ -16,8 +15,8 @@ Intelligent Photo shooter for my Mountain Bike
 
 ## Hardware used
 1. Rasberri pi 4
-2. Camera OAK-1 with edge visual compute intel Myriad X inside
-3. Battery 5v USB 10400ma
+2. Camera OAK-1 with edge compute intel Myriad X visual processor inside
+3. Battery Power Bank 5v USB 10400ma
 
 ## Deep Learning Models used
 1. Rasberri pi 4
@@ -38,6 +37,8 @@ Intelligent Photo shooter for my Mountain Bike
 1. Rasberri pi 4
 2. Camera OAK-1 with edge visual compute intel Myriad X inside
 3. Battery 5v USB 10400ma
+
+## Bike Instalation
 
 ## TO-DO , TO-TEST , MORE Ideas
 
