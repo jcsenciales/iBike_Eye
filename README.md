@@ -35,6 +35,9 @@ save photos and videos, here can to play my Raspberry. The main characteristics 
 4. Battery Power Bank 5v USB 10400 mAh
 5. Two USB wires to connect with the camera and supply power to Rasberry-pi
 
+<img src="https://user-images.githubusercontent.com/4199937/112680418-a3770d80-8e6d-11eb-9669-4fe94257d099.jpg" width="40%" height="40%" alt="RaspBerry Pi y OAK-1 Camera" title="RaspBerry Pi, Battery and OAK-1 Camera">
+
+
 
 ## Deep Learning Models used
 1. Rasberri pi 4
