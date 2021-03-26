@@ -64,6 +64,28 @@ With all the above steps we have the Raspberry ready to use OAK-1 and go out to 
 ensure when we connect power to Raspberry it´s run all the software without keyboard and without a screen because on a
 bike I will use the minimal devices possible.
 
+## Raspberry Automatic script run
+
+When I connect power to Raspberry-pi in my Bike, I need to start all the process automatically without any intervention.
+This is solved using crontab. (@reboot ...)
+I have a little bash script that activate the python3 virtualenv and run the Bike-eye.py python script. After that I can
+begin my route taken photos using the OAK-1.
+
+## iBike Eye Configuration
+
+The script configuration can be changed in the file "bike_eye_config.py"
+
+The main parameters are:
+
+1. images parameters img_path = './outimg/' #path to save images frecuency_img = 2 # n seconds for waiting between write
+   every image to disk score_confidence = 80 # score to be save image or not
+
+1. video parameters video_duration = 20 #durations of videos video_fps = 15.0 #video frame per second video_path = '
+   ./outvideo/' #path to save videos
+
+Also, in this config file we can select between use MobileNetSSD or Yolo-v3 models.
+
+
 ## Costs
 
 1. [OAK-1](https://store.opencv.ai/products/oak-1): 149$
@@ -73,15 +95,6 @@ bike I will use the minimal devices possible.
 5. 32GB Microsd class I: 7 €
 6. mino switch: 0 €, it is from an old car cd player.
 
-## Rasberry Automatic script run
-1. Rasberri pi 4
-2. Camera OAK-1 with edge visual compute intel Myriad X inside
-3. Battery 5v USB 10400ma
-
-## iBike Eye Configuration
-1. Rasberri pi 4
-2. Camera OAK-1 with edge visual compute intel Myriad X inside
-3. Battery 5v USB 10400ma
 
 ## Bike Instalation
 
