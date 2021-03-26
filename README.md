@@ -96,9 +96,30 @@ Also, in this config file we can select between use MobileNetSSD or Yolo-v3 mode
 6. mino switch: 0 €, it is from an old car cd player.
 
 
-## Bike Instalation
+## Video recording Feature
 
-## TO-DO , TO-TEST , MORE Ideas
+The software allow save short videos when is pressed the mini button connected to Raspberry GPIO. These videos have a
+fixed duration you can configure in the config file. The video feature saves frames, and the objects detected by the
+model in real time, so if you want save something interesting while riding you only need to press this button.
+
+While a video is been recording the video button is disabled and if you press it has any effect.
+
+## Bike Installation
+
+I use a camera clamp in the bike handlebar as you can see on the photos.
+
+## TO-DO, TO-TEST, More Ideas
+
+1. Change the code to DepthAI API gen2.
+2. Test for detecting object with custom models.
+3. Make a car plates detector using a two stage pipeline and save all number plates in a log file. In that way I have
+   saved all the cars plates seen in my bike route.
+4. Count people with and without COVID-19 mask while I ride to get a mask use percent.
+5. Connect some detections with social networks as Twitter, Strava to upload photos while I am riding with the Raspberry
+   connected to Wifi mobile.
+
+## Performance, temperature , battery duration
+
 
 ## Examples
 1. I save my test routes with Strava (The Strava API not allowe upload image for free, so I upload manually)
