@@ -13,9 +13,8 @@ this project deep learning models.
 
 ## Description
 
-iBike_Eye is a project to automatically take photos or make videos while you are riding. For that purpose I used an
-OAK-1 embedded 4k camera and neural compute edge compute intel processor. I upload deep learning models into this camera,
-and the camera run the deep-learning model and return detections using USB-3 interface. So I need some mini computer to
+iBike_Eye is a project to automatically take photos or make videos while you are riding. For this purpose I used an
+OAK-1 embedded 4k camera and neural compute edge compute [Intel Movidius™ Myriad™ X](https://www.intel.com/content/www/us/en/products/details/processors/movidius-vpu/movidius-myriad-x.html) that enables CNN-based deep learning inference on the edge. I upload deep learning models into OAK-1 camera, and the intel unit run the deep-learning models and return detections using USB-3 interface. So I need some mini computer to
 save photos and videos, here can to play my Raspberry. The main characteristics are:
 
 1. Take automatically photos using deep learning models.
@@ -31,20 +30,28 @@ save photos and videos, here can to play my Raspberry. The main characteristics 
 
 1. Raspberry pi 4 Model B with case and fan for ventilation
 2. Camera OAK-1 with edge compute intel Myriad X visual processor inside
-3. Mini switch and two wires for GPIO Button_video
-4. Battery Power Bank 5v USB 10400 mAh
-5. Two USB wires to connect with the camera and supply power to Rasberry-pi
+3. 32GB MicroSD Class I
+4. Mini switch and two wires for GPIO Button_video
+5. Battery Power Bank 5v USB 10400 mAh
+6. Two USB wires to connect with the camera and supply power to Rasberry-pi
 
 <img src="https://user-images.githubusercontent.com/4199937/112680418-a3770d80-8e6d-11eb-9669-4fe94257d099.jpg" width="40%" height="40%" alt="RaspBerry Pi y OAK-1 Camera" title="RaspBerry Pi, Battery and OAK-1 Camera">
 
-
-
 ## Deep Learning Models used
-1. Rasberri pi 4
-2. Camera OAK-1 with edge visual compute intel Myriad X inside
-3. Battery 5v USB 10400ma
 
-## Rasberry Configuration
+it´s used mainly two models in all the test done. MobileNetSSD and Yolo_v3. These are open free models for object
+detections from [OpenVINO](https://docs.openvinotoolkit.org/latest/index.html). Only we need to compile these models to
+get model files compatible with the edge 
+compute [Intel Myriad X](https://www.intel.com/content/www/us/en/products/details/processors/movidius-vpu/movidius-myriad-x.html)
+.
+
+1. [MobileNetSSD](https://docs.openvinotoolkit.org/2021.2/omz_models_public_mobilenet_ssd_mobilenet_ssd.html), trained
+   on a dataset with 20 classes.
+2. [Yolo-v3](https://docs.openvinotoolkit.org/latest/omz_models_model_yolo_v3_tf.html), trained on COCO dataset with 80
+   classes.
+
+
+## Raspberry Configuration
 1. Rasberri pi 4
 2. Camera OAK-1 with edge visual compute intel Myriad X inside
 3. Battery 5v USB 10400ma
@@ -62,6 +69,8 @@ save photos and videos, here can to play my Raspberry. The main characteristics 
 ## Bike Instalation
 
 ## TO-DO , TO-TEST , MORE Ideas
+
+## Cost
 
 ## Examples
 1. I save my test routes with Strava (The Strava API not allowe upload image for free, so I upload manually)
