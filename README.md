@@ -77,12 +77,18 @@ The script configuration can be changed in the file "bike_eye_config.py"
 
 The main parameters are:
 
-1. images parameters img_path = './outimg/' #path to save images frecuency_img = 2 # n seconds for waiting between write
-   every image to disk score_confidence = 80 # score to be save image or not
-
-1. video parameters video_duration = 20 #durations of videos video_fps = 15.0 #video frame per second video_path = '
-   ./outvideo/' #path to save videos
-
+image parameters:
+```
+img_path = './outimg/' #path to save images 
+frecuency_img = 2 # n seconds for waiting between write every image to disk 
+score_confidence = 80 # score to be save image or not
+```
+video parameters:
+```
+video_duration = 20 #durations of videos 
+video_fps = 15.0 #video frame per second 
+video_path = './outvideo/' #path to save videos
+```
 Also, in this config file we can select between use MobileNetSSD or Yolo-v3 models.
 
 
