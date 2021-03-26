@@ -56,7 +56,7 @@ compute [Intel Myriad X](https://www.intel.com/content/www/us/en/products/detail
 1. Install [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit) into 32GB MicroSD.
 2. Create a python3 virtualenv to install libs.
 3. Install [DepthAI Library gen1](https://docs.luxonis.com/en/gen1_master/pages/api/#supported-platforms), (in a future
-   we need to update to gen2 API)
+   I need to update to gen2 API)
 4. Install my Bike_eye.py Script and its configuration script
 5. Install GPIO Library to control video button
 
