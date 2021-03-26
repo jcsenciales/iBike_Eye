@@ -52,9 +52,26 @@ compute [Intel Myriad X](https://www.intel.com/content/www/us/en/products/detail
 
 
 ## Raspberry Configuration
-1. Rasberri pi 4
-2. Camera OAK-1 with edge visual compute intel Myriad X inside
-3. Battery 5v USB 10400ma
+
+1. Install [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit) into 32GB MicroSD.
+2. Create a python3 virtualenv to install libs.
+3. Install [DepthAI Library gen1](https://docs.luxonis.com/en/gen1_master/pages/api/#supported-platforms), (in a future
+   we need to update to gen2 API)
+4. Install my Bike_eye.py Script and its configuration script
+5. Install GPIO Library to control video button
+
+With all the above steps we have the Raspberry ready to use OAK-1 and go out to take automatic photos. it´s needed to
+ensure when we connect power to Raspberry it´s run all the software without keyboard and without a screen because on a
+bike I will use the minimal devices possible.
+
+## Costs
+
+1. [OAK-1](https://store.opencv.ai/products/oak-1): 149$
+2. [RaspBerry pi 4 MODEL B 4GB](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/): 49€
+3. Raspberry case: 7.20€
+4. Raspberry Fan: 5€
+5. 32GB Microsd class I: 7 €
+6. mino switch: 0 €, it is from an old car cd player.
 
 ## Rasberry Automatic script run
 1. Rasberri pi 4
@@ -69,8 +86,6 @@ compute [Intel Myriad X](https://www.intel.com/content/www/us/en/products/detail
 ## Bike Instalation
 
 ## TO-DO , TO-TEST , MORE Ideas
-
-## Cost
 
 ## Examples
 1. I save my test routes with Strava (The Strava API not allowe upload image for free, so I upload manually)
