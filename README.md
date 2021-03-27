@@ -123,6 +123,19 @@ I carry the battery and Raspberry-pi in a little waist bag with care about venti
 
 <img src="https://user-images.githubusercontent.com/4199937/112726353-3cb12d00-8f1d-11eb-87a6-9d234ef2394f.jpg" width="30%" height="30%" alt="Battery and Raspberry in a bag" title="Battery and Raspberry in a bag">
 
+## Battery duration and temperature
+
+I always begin my route with the battery 100% charged, my routes has a maximun duration 1,5 hours and the battery arrive with 50% charge left.
+
+The temperature is moving between 57 and 64 degrees celsius. The fan is configurated to operate at 60 degrees celsius.
+
+![Raspberry_temperature](https://user-images.githubusercontent.com/4199937/112727827-8f421780-8f24-11eb-9197-0eda6dcb357a.png)
+
+The memory comsuptions is minimal, remember all the deep_learning model process is done on the intel edge processor.
+
+![Raspberry_htop](https://user-images.githubusercontent.com/4199937/112727816-87827300-8f24-11eb-96b5-b5f56f5065cd.png)
+
+
 ## Costs
 
 1. [OAK-1](https://store.opencv.ai/products/oak-1): 149$
@@ -145,7 +158,6 @@ I carry the battery and Raspberry-pi in a little waist bag with care about venti
 6. Detect holes on the road, fallen tree branches... take photos and notify the city council repair services to fix it.
 7. 
 
-## Battery duration and temperature
 
 
 ## Results
