@@ -42,8 +42,7 @@ save photos and videos, here can to play my Raspberry. The main characteristics 
 it´s used mainly two models in all the test done. MobileNetSSD and Yolo_v3. These are open free models for object
 detections from [OpenVINO](https://docs.openvinotoolkit.org/latest/index.html). Only we need to compile these models to
 get model files compatible with the edge 
-compute [Intel Myriad X](https://www.intel.com/content/www/us/en/products/details/processors/movidius-vpu/movidius-myriad-x.html)
-.
+compute [Intel Movidius™ Myriad™ X](https://www.intel.com/content/www/us/en/products/details/processors/movidius-vpu/movidius-myriad-x.html).
 
 1. [MobileNetSSD](https://docs.openvinotoolkit.org/2021.2/omz_models_public_mobilenet_ssd_mobilenet_ssd.html), trained
    on a dataset with 20 classes.
