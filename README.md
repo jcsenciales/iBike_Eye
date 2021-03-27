@@ -57,19 +57,19 @@ compute [Intel Myriad X](https://www.intel.com/content/www/us/en/products/detail
 2. Create a python3 virtualenv to install libs.
 3. Install [DepthAI Library gen1](https://docs.luxonis.com/en/gen1_master/pages/api/#supported-platforms), (in a future
    I need to update to gen2 API)
-4. Install my Bike_eye.py Script and its configuration script
+4. Install my Bike_eye_pi.py script and its configuration script
 5. Install GPIO Library to control video button
 
 With all the above steps we have the Raspberry ready to use OAK-1 and go out to take automatic photos. it´s needed to
-ensure when we connect power to Raspberry it´s run all the software without keyboard and without a screen because on a
+ensure when we connect power to Raspberry all software it´s started without keyboard and without a screen because on a
 bike I will use the minimal devices possible.
 
 ## Raspberry Automatic script run
 
 When I connect power to Raspberry-pi in my Bike, I need to start all the process automatically without any intervention.
 This is solved using crontab. (@reboot ...)
-I have a little bash script that activate the python3 virtualenv and run the Bike-eye.py python script. After that I can
-begin my route taken photos using the OAK-1.
+It is used a bash script that activate the python3 virtualenv and run the Bike_eye_pi.py python script. After that I can
+begin my bike route taken automatically photos using the Deep Learning Models deployed into OAK-1.
 
 ## iBike Eye Configuration
 
@@ -89,8 +89,12 @@ video_duration = 20 #durations of videos
 video_fps = 15.0 #video frame per second 
 video_path = './outvideo/' #path to save videos
 ```
-Also, in this config file we can select between use MobileNetSSD or Yolo-v3 models.
-
+Also, in this config file we can select between use MobileNetSSD or Yolo-v3 models and configure our object classes.
+```
+my_wanted_objects = ['bicycle', 'motorbike', 'aeroplane', 'bus', 'train', 'boat', 'horse', 'dog', 'cat', 'bird',
+                      'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'frisbee', 'skis', 'snowboard',
+                      'sports_ball', 'kite', 'skateboard', 'surfboard', 'tennis_racket']
+```
 
 ## Costs
 
