@@ -105,16 +105,6 @@ my_wanted_objects = ['bicycle', 'motorbike', 'aeroplane', 'bus', 'train', 'boat'
                       'sports_ball', 'kite', 'skateboard', 'surfboard', 'tennis_racket']
 ```
 
-## Costs
-
-1. [OAK-1](https://store.opencv.ai/products/oak-1): 149$
-2. [RaspBerry pi 4 MODEL B 4GB](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/): 49€
-3. Raspberry case: 7.20€
-4. Raspberry Fan: 5€
-5. 32GB Microsd class I: 7 €
-6. mino switch: 0 €, it is from an old car cd player.
-
-
 ## Video recording Feature
 
 The software allow save short videos when is pressed the mini button connected to Raspberry GPIO. These videos have a
@@ -133,6 +123,16 @@ I carry the battery and Raspberry-pi in a little waist bag with care about venti
 
 <img src="https://user-images.githubusercontent.com/4199937/112726353-3cb12d00-8f1d-11eb-87a6-9d234ef2394f.jpg" width="30%" height="30%" alt="Battery and Raspberry in a bag" title="Battery and Raspberry in a bag">
 
+## Costs
+
+1. [OAK-1](https://store.opencv.ai/products/oak-1): 149$
+2. [RaspBerry pi 4 MODEL B 4GB](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/): 49€
+3. Raspberry case: 7.20€
+4. Raspberry Fan: 5€
+5. 32GB Microsd class I: 7 €
+6. mino switch: 0 €, it is from an old car cd player.
+
+
 ## TO-DO, TO-TEST, More Ideas
 
 1. Change the code to DepthAI API gen2.
@@ -142,11 +142,13 @@ I carry the battery and Raspberry-pi in a little waist bag with care about venti
 4. Count people with and without COVID-19 mask while I ride to get a mask use percent.
 5. Connect some detections with social networks as Twitter, Strava to upload photos while I am riding with the Raspberry
    connected to Wifi mobile.
+6. Detect holes on the road, fallen tree branches... take photos and notify the city council repair services to fix it.
+7. 
 
-## Performance, temperature , battery duration
+## Battery duration and temperature
 
 
-## Examples
+## Results
 1. I have saved some tests routes with Strava (The Strava API not allow me upload image for free on air, so I´ve uploaded manually), <a href="https://www.strava.com/athletes/79682242">You can see my tests on this strava! profile.</a>
 
 
