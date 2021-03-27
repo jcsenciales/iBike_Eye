@@ -66,9 +66,19 @@ bike I will use the minimal devices possible.
 ## Raspberry Automatic script run
 
 When I connect power to Raspberry-pi in my Bike, I need to start all the process automatically without any intervention.
-This is solved using crontab. (@reboot ...)
-It is used a bash script that activate the python3 virtualenv and run the Bike_eye_pi.py python script. After that I can
+This is solved using crontab.
+```
+@reboot  /home/pi/depthai/run_bike_eye.sh
+```
+It is used a bash script ('run_bike_eye.sh') that activate the python3 virtualenv and run the Bike_eye_pi.py python script. After that I can
 begin my bike route taken automatically photos using the Deep Learning Models deployed into OAK-1.
+```
+#!/bin/bash
+
+source /home/pi/depthai/venv/bin/activate
+cd /home/pi/depthai
+python3 Bike_eye_pi.py
+```
 
 ## iBike Eye Configuration
 
