@@ -116,7 +116,13 @@ While a video is been recording the video button is disabled and if you press it
 
 ## Bike Installation
 
-I use a camera clamp in the bike handlebar as you can see on the photos.
+I use a camera clamp on the bike handlebar as you can see on the photos.
+
+<img src="https://user-images.githubusercontent.com/4199937/112726347-358a1f00-8f1d-11eb-84e4-be4c2b51a9ee.jpg" width="30%" height="30%" alt="OAK-1 Camera on Bike" title="OAK-1 Camera on Bike">
+
+I carry the battery and Raspberry-pi in a little waist bag with care about ventilation.
+
+<img src="https://user-images.githubusercontent.com/4199937/112726353-3cb12d00-8f1d-11eb-87a6-9d234ef2394f.jpg" width="30%" height="30%" alt="Battery and Raspberry in a bag" title="Battery and Raspberry in a bag">
 
 ## TO-DO, TO-TEST, More Ideas
 
