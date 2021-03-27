@@ -33,7 +33,7 @@ save photos and videos, here can to play my Raspberry. The main characteristics 
 3. 32GB MicroSD Class I
 4. Mini switch and two wires for GPIO Button_video
 5. Battery Power Bank 5v USB 10400 mAh
-6. Two USB wires to connect with the camera and supply power to Rasberry-pi
+6. Two USB wires to connect with the camera and supply power to Raspberry-pi
 
 <img src="https://user-images.githubusercontent.com/4199937/112680418-a3770d80-8e6d-11eb-9669-4fe94257d099.jpg" width="40%" height="40%" alt="RaspBerry Pi y OAK-1 Camera" title="RaspBerry Pi, Battery and OAK-1 Camera">
 
