@@ -137,10 +137,7 @@ I carry the battery and Raspberry-pi in a little waist bag with care about venti
 
 
 ## Examples
-1. I save my test routes with Strava (The Strava API not allowe upload image for free, so I upload manually)
-1.1 <a href="https://www.strava.com/athletes/79682242">You can see my test on strava!</a>
+1. I have saved some tests routes with Strava (The Strava API not allow me upload image for free on air, so I´ve uploaded manually), <a href="https://www.strava.com/athletes/79682242">You can see my tests on this strava! profile.</a>
 
 
-![Example_1](https://user-images.githubusercontent.com/4199937/112039057-e2425600-8b43-11eb-88a6-3969b59ddf99.jpg)
-
-<img src="https://user-images.githubusercontent.com/4199937/112039057-e2425600-8b43-11eb-88a6-3969b59ddf99.jpg" width="50%" height="50%" alt="Example_1">
+<img src="https://user-images.githubusercontent.com/4199937/112039057-e2425600-8b43-11eb-88a6-3969b59ddf99.jpg" width="60%" height="60%" alt="Example_1">
