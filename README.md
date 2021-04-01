@@ -168,7 +168,7 @@ The memory comsuptions is minimal, remember all the deep_learning model process 
 
 <img src="https://user-images.githubusercontent.com/4199937/112760109-26c36b00-8ff6-11eb-9aa3-59a87a623a1c.jpg" width="60%" height="60%" alt="Example_2">
 
-<table cellpadding="10">
+<table>
 <tr>
 <td><img src="https://user-images.githubusercontent.com/4199937/113266947-17823d00-92d6-11eb-88d6-223661d778aa.jpg" alt="Example_3"></td>
 <td><img src="https://user-images.githubusercontent.com/4199937/113282040-b151e600-92e6-11eb-8db4-26a170372c52.jpg" alt="Example_3"></td>
