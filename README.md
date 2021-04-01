@@ -14,7 +14,7 @@ this project object detection deep learning models.
 ## Description
 
 iBike_Eye is a project to automatically take photos or make videos while you are riding on your bike. For this purpose I used an
-OAK-1 embedded 4k camera and visula edge compute processor [Intel Movidius™ Myriad™ X](https://www.intel.com/content/www/us/en/products/details/processors/movidius-vpu/movidius-myriad-x.html) that enables CNN-based deep learning inference on the edge. I upload deep learning models into OAK-1 camera, and the intel unit run the deep-learning models and return detections using USB-3 interface. So I need a host mini computer to save photos and videos, here is where can to play my Raspberry-Pi. The main characteristics are:
+OAK-1 embedded 4k camera and visual edge compute processor [Intel Movidius™ Myriad™ X](https://www.intel.com/content/www/us/en/products/details/processors/movidius-vpu/movidius-myriad-x.html) that enables CNN-based deep learning inference on the edge. I upload deep learning models into OAK-1 camera, and the intel unit run the deep-learning models and return detections using USB-3 interface. So I need a host mini computer to save photos and videos, here is where can to play my Raspberry-Pi. The main characteristics are:
 
 1. Take automatically photos using deep learning models.
 2. It can be used several models with different precisions (mobilenet, yolo,...) or train your own amazing deep learning model.
