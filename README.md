@@ -4,24 +4,23 @@ Intelligent Automatic Photo shooter for my Mountain Bike
 
 ## Motivation
 
-How many times you are riding at your favorite route, and you see a horse or a cow or a great boat and you want to take
-it a photo.Then you need to stop, grab your mobile phone and take your photo to share with strava, twitter or using
+How many times you are riding at your favorite MTB route, and you see a horse or a cow or a great boat and you want to take
+it a photo.So you need to stop, grab your mobile phone and take your photo to share with strava, twitter or using
 other social net with your followers. When I ride with my daughters this situation could repeat several times, really I
 hate to stop every 10 minutes to take photos, so I think could be useful to have an intelligent camera in my bike to
-automatically take photos only if the camera automatically see a set of animals or objects I define. For this I use in
-this project deep learning models.
+automatically take photos only if the camera automatically detect a set of animals or objects I define. For this I use in
+this project object detection deep learning models.
 
 ## Description
 
-iBike_Eye is a project to automatically take photos or make videos while you are riding. For this purpose I used an
-OAK-1 embedded 4k camera and neural compute edge compute [Intel Movidius™ Myriad™ X](https://www.intel.com/content/www/us/en/products/details/processors/movidius-vpu/movidius-myriad-x.html) that enables CNN-based deep learning inference on the edge. I upload deep learning models into OAK-1 camera, and the intel unit run the deep-learning models and return detections using USB-3 interface. So I need some mini computer to
-save photos and videos, here can to play my Raspberry. The main characteristics are:
+iBike_Eye is a project to automatically take photos or make videos while you are riding on your bike. For this purpose I used an
+OAK-1 embedded 4k camera and visula edge compute processor [Intel Movidius™ Myriad™ X](https://www.intel.com/content/www/us/en/products/details/processors/movidius-vpu/movidius-myriad-x.html) that enables CNN-based deep learning inference on the edge. I upload deep learning models into OAK-1 camera, and the intel unit run the deep-learning models and return detections using USB-3 interface. So I need a host mini computer to save photos and videos, here is where can to play my Raspberry-Pi. The main characteristics are:
 
 1. Take automatically photos using deep learning models.
-2. It can be used several models with different precisions (mobilenet, yolo,...) or train your own amazing model.
+2. It can be used several models with different precisions (mobilenet, yolo,...) or train your own amazing deep learning model.
 3. I have several parameters to configure frequency between photos, fps, score confidence.
 4. Is needed to configure a list of classes I am interested to take it photos. ('aeroplane', 'bicycle', 'bird', 'boat', 'car', 'cat', 'cow', 'dog', 'horse', ...)
-5. I have used Raspberry-Pi GPIO to implement a physical button to save videos. These videos also have all boxes detections. 
+5. I have used Raspberry-Pi GPIO to implement a physical button to save videos. These videos also show all model boxes detections. 
 
 <img src="https://user-images.githubusercontent.com/4199937/112661508-e2e62f80-8e56-11eb-88e8-9f6338f819eb.png" width="30%" height="30%" alt="OAK-1 Camera" title="OAK-1 Camera">
 
@@ -57,7 +56,7 @@ compute [Intel Movidius™ Myriad™ X](https://www.intel.com/content/www/us/en/
 3. Install [DepthAI Library gen1](https://docs.luxonis.com/en/gen1_master/pages/api/#supported-platforms), (in a future
    I need to update to gen2 API)
 4. Install my Bike_eye_pi.py script and its configuration script
-5. Install GPIO Library to control video button
+5. Install [GPIO Library](https://gpiozero.readthedocs.io/en/stable/) to control video button
 
 With all the above steps we have the Raspberry ready to use OAK-1 and go out to take automatic photos. it´s needed to
 ensure when we connect power to Raspberry all software it´s started without keyboard and without a screen because on a
@@ -65,13 +64,13 @@ bike I will use the minimal devices possible.
 
 ## Raspberry Automatic script run
 
-When I connect power to Raspberry-pi in my Bike, I need to start all the process automatically without any intervention.
+When I connect power to Raspberry-pi on my Bike, I need to start all the process automatically without any intervention.
 This is solved using crontab.
 ```
 @reboot  /home/pi/depthai/run_bike_eye.sh
 ```
 It is used a bash script ('run_bike_eye.sh') that activate the python3 virtualenv and run the Bike_eye_pi.py python script. After that I can
-begin my bike route taken automatically photos using the Deep Learning Models deployed into OAK-1.
+start my bike route taken automatically photos using the Deep Learning Models deployed into OAK-1.
 ```
 #!/bin/bash
 
@@ -90,7 +89,7 @@ image parameters:
 ```
 img_path = './outimg/' #path to save images 
 frecuency_img = 2 # n seconds for waiting between write every image to disk 
-score_confidence = 80 # score to be save image or not
+score_confidence = 80 # score to save image or not
 ```
 video parameters:
 ```
@@ -98,7 +97,7 @@ video_duration = 20 #durations of videos
 video_fps = 15.0 #video frame per second 
 video_path = './outvideo/' #path to save videos
 ```
-Also, in this config file we can select between use MobileNetSSD or Yolo-v3 models and configure our object classes.
+Also, in this config file we can select between use MobileNetSSD or Yolo-v3 models and configure our desired object classes.
 ```
 my_wanted_objects = ['bicycle', 'motorbike', 'aeroplane', 'bus', 'train', 'boat', 'horse', 'dog', 'cat', 'bird',
                       'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'frisbee', 'skis', 'snowboard',
@@ -107,15 +106,15 @@ my_wanted_objects = ['bicycle', 'motorbike', 'aeroplane', 'bus', 'train', 'boat'
 
 ## Video recording Feature
 
-The software allow save short videos when is pressed the mini button connected to Raspberry GPIO. These videos have a
-fixed duration you can configure in the config file. The video feature saves frames, and the objects detected by the
+Alos, It is allowed save short videos when is pressed the mini button connected to Raspberry GPIO. These videos have a
+fixed duration you can configure in the config file. This video feature saves frames, and the objects detected by the
 model in real time, so if you want save something interesting while riding you only need to press this button.
 
-While a video is been recording the video button is disabled and if you press it has any effect.
+While a video is been recording the video button is disabled and if you press several times it has any effect.
 
 ## Bike Installation
 
-I use a camera clamp on the bike handlebar as you can see on the photos.
+I use a camera clamp on the bike handlebar as you can see on images bellow.
 
 <img src="https://user-images.githubusercontent.com/4199937/112726347-358a1f00-8f1d-11eb-84e4-be4c2b51a9ee.jpg" width="30%" height="30%" alt="OAK-1 Camera on Bike" title="OAK-1 Camera on Bike">
 
@@ -125,13 +124,13 @@ I carry the battery and Raspberry-pi in a little waist bag with care about venti
 
 ## Battery duration and temperature
 
-I always begin my route with the battery 100% charged, my routes has a maximun duration 1,5 hours and the battery arrive with 50% charge left.
+I always begin my route with the battery 100% charged, my routes has a maximun duration 1,5 hours and the battery arrives with 50% charge left.
 
 The temperature is moving between 57 and 64 degrees celsius. The fan is configurated to operate at 60 degrees celsius.
 
 ![Raspberry_temperature](https://user-images.githubusercontent.com/4199937/112727827-8f421780-8f24-11eb-9197-0eda6dcb357a.png)
 
-The memory comsuptions is minimal, remember all the deep_learning model process is done on the intel edge processor.
+The memory comsuptions is minimal, remember all the deep_learning model process is done on the intel Myriad X edge processor.
 
 ![Raspberry_htop](https://user-images.githubusercontent.com/4199937/112727816-87827300-8f24-11eb-96b5-b5f56f5065cd.png)
 
@@ -143,25 +142,26 @@ The memory comsuptions is minimal, remember all the deep_learning model process 
 3. Raspberry case: 7.20€
 4. Raspberry Fan: 5€
 5. 32GB Microsd class I: 7 €
-6. mino switch: 0 €, it is from an old car cd player.
+6. mini switch: 0 €, it is from an old car cd player.
 
 
-## TO-DO, TO-TEST, More Ideas
+## TO-DO & More Ideas
 
 1. Change the code to DepthAI API gen2.
-2. Test for detecting object with custom models.
-3. Make a car plates detector using a two stage pipeline and save all number plates in a log file. In that way I have
+2. Test detecting other interesting objects with custom trained deep learnig model.
+3. Make a car plates detector using a two stage pipeline and save all number plates in a log file. So I have
    saved all the cars plates seen in my bike route.
-4. Count people with and without COVID-19 mask while I ride to get a mask use percent.
-5. Connect some detections with social networks as Twitter, Strava to upload photos while I am riding with the Raspberry
+4. Count people with and without COVID-19 mask while I ride to get a COVID-19 mask use percent.
+5. Connect some class detections with social networks as Twitter, Strava to upload photos while I am riding in real time with the Raspberry
    connected to Wifi mobile.
-6. Detect holes on the road, fallen tree branches... take photos and notify the city council repair services to fix it.
-7. 
+6. Detect holes on the road, fallen tree branches..., take photos and notify the city council repair services to fix it.
+7. Connect a GPS module to Raspberry-Pi to add longitude and latitude to all detections.
 
 
 
 ## Results
-1. I have saved some tests routes with Strava (The Strava API not allow me upload image for free on air, so I´ve uploaded manually), <a href="https://www.strava.com/athletes/79682242">You can see my tests on this strava! profile.</a>
+1. I have saved some tests routes with Strava (The Strava API not allow me upload image for free on air, so I´ve uploaded manually), <a href="https://www.strava.com/athletes/79682242">You can see my tests on strava profile.</a>. 
+2. Bellow you can see some example photos taken automatically while I ride. 
 
 
 <img src="https://user-images.githubusercontent.com/4199937/112039057-e2425600-8b43-11eb-88a6-3969b59ddf99.jpg" width="60%" height="60%" alt="Example_1">
@@ -174,5 +174,5 @@ The memory comsuptions is minimal, remember all the deep_learning model process 
 
 <img src="https://user-images.githubusercontent.com/4199937/113267462-aabb7280-92d6-11eb-8b3f-fbdd02477d9b.jpg" width="60%" height="60%" alt="Example_5">
 
-
+<img src="https://user-images.githubusercontent.com/4199937/113276143-d131db80-92df-11eb-87ad-a27d340ee258.jpg" width="60%" height="60%" alt="Example_6">
 
