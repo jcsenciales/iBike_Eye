@@ -27,10 +27,10 @@ OAK-1 embedded 4k camera and a visual edge compute processor [Intel Movidius™ 
 
 ## Hardware used
 
-1. Raspberry pi 4 Model B with case and fan for ventilation
+1. Raspberry pi 4 Model B with case and a cooler fan
 2. Camera OAK-1 with edge compute intel Myriad X visual processor inside
 3. 32GB MicroSD Class I
-4. Mini switch and two wires for GPIO Button_video
+4. Mini switch and two Dupont wires for GPIO Button_video
 5. Battery Power Bank 5v USB 10400 mAh
 6. Two USB wires to connect with the camera and supply power to Raspberry-pi
 
