@@ -6,7 +6,7 @@ Intelligent Automatic Photo shooter for my Mountain Bike
 
 How many times you are riding at your favorite MTB route, and you see a horse or a cow or a great boat and you want to take
 it a photo.So you need to stop, grab your mobile phone and take your photo to share with strava, twitter or using
-other social net with your followers. When I ride with my daughters this situation could repeat several times, really I
+another social net with your followers. When I ride with my daughters this situation could repeat several times, really I
 hate to stop every 10 minutes to take photos, so I think could be useful to have an intelligent camera in my bike to
 automatically take photos only if the camera automatically detect a set of animals or objects I define. For this I use in
 this project object detection deep learning models.
