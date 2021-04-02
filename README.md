@@ -161,7 +161,7 @@ The memory comsuptions is minimal, remember all the deep_learning model process 
 
 ## Results
 1. I have saved some tests routes with Strava (The Strava API not allow me upload image for free on air, so I´ve uploaded manually), <a href="https://www.strava.com/athletes/79682242">You can see my tests on strava profile.</a>. 
-2. Bellow you can see some example photos taken automatically while I ride. 
+2. Bellow you can see some real photos taken automatically while I ride. 
 
 
 <img src="https://user-images.githubusercontent.com/4199937/112039057-e2425600-8b43-11eb-88a6-3969b59ddf99.jpg" width="60%" height="60%" alt="Example_1">
