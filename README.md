@@ -168,22 +168,28 @@ The memory comsuptions is minimal, remember all the deep_learning model process 
 
 <img src="https://user-images.githubusercontent.com/4199937/112760109-26c36b00-8ff6-11eb-9aa3-59a87a623a1c.jpg" width="60%" height="60%" alt="Example_2">
 
+<img src="https://user-images.githubusercontent.com/4199937/113420297-59d87680-93c9-11eb-9428-9eaa48a3213b.jpg" width="60%" height="60%" alt="Example_3">
+
 <table>
 <tr>
-<td><img src="https://user-images.githubusercontent.com/4199937/113266947-17823d00-92d6-11eb-88d6-223661d778aa.jpg" alt="Example_3"></td>
-<td><img src="https://user-images.githubusercontent.com/4199937/113282040-b151e600-92e6-11eb-8db4-26a170372c52.jpg" alt="Example_3"></td>
+<td><img src="https://user-images.githubusercontent.com/4199937/113266947-17823d00-92d6-11eb-88d6-223661d778aa.jpg" alt="Example_4"></td>
+<td><img src="https://user-images.githubusercontent.com/4199937/113282040-b151e600-92e6-11eb-8db4-26a170372c52.jpg" alt="Example_5"></td>
 </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/4199937/113267239-65974080-92d6-11eb-85ee-5a48e03445a6.jpg" width="60%" height="60%" alt="Example_4">
+<img src="https://user-images.githubusercontent.com/4199937/113267239-65974080-92d6-11eb-85ee-5a48e03445a6.jpg" width="60%" height="60%" alt="Example_6">
 
-<img src="https://user-images.githubusercontent.com/4199937/113267462-aabb7280-92d6-11eb-8b3f-fbdd02477d9b.jpg" width="60%" height="60%" alt="Example_5">
+<img src="https://user-images.githubusercontent.com/4199937/113267462-aabb7280-92d6-11eb-8b3f-fbdd02477d9b.jpg" width="60%" height="60%" alt="Example_7">
 
-<img src="https://user-images.githubusercontent.com/4199937/113276143-d131db80-92df-11eb-87ad-a27d340ee258.jpg" width="60%" height="60%" alt="Example_6">
+<img src="https://user-images.githubusercontent.com/4199937/113276143-d131db80-92df-11eb-87ad-a27d340ee258.jpg" width="60%" height="60%" alt="Example_8">
 
-<img src="https://user-images.githubusercontent.com/4199937/113283487-a8621400-92e8-11eb-8aa0-f51a57d31f4e.jpg" width="60%" height="60%" alt="Example_7">
+<img src="https://user-images.githubusercontent.com/4199937/113420338-6bba1980-93c9-11eb-8031-d6e6e6fe6303.jpg" width="60%" height="60%" alt="Example_9">
 
-<img src="https://user-images.githubusercontent.com/4199937/113401039-0f440380-93a3-11eb-82d6-00dec59fc162.jpg" width="60%" height="60%" alt="Example_8">
+<img src="https://user-images.githubusercontent.com/4199937/113283487-a8621400-92e8-11eb-8aa0-f51a57d31f4e.jpg" width="60%" height="60%" alt="Example_10">
+
+<img src="https://user-images.githubusercontent.com/4199937/113401039-0f440380-93a3-11eb-82d6-00dec59fc162.jpg" width="60%" height="60%" alt="Example_11">
+
+
 
 
 
