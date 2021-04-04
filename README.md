@@ -189,7 +189,11 @@ The memory comsuptions is minimal, remember all the deep_learning model process 
 
 <img src="https://user-images.githubusercontent.com/4199937/113401039-0f440380-93a3-11eb-82d6-00dec59fc162.jpg" width="60%" height="60%" alt="Example_11">
 
+<img src="https://user-images.githubusercontent.com/4199937/113510946-93da8180-955d-11eb-8390-59569c9db600.jpg" width="60%" height="60%" alt="Example_12">
 
+<img src="https://user-images.githubusercontent.com/4199937/113510980-b8cef480-955d-11eb-969d-28c0b05ffed9.jpg" width="60%" height="60%" alt="Example_13">
 
+<img src="https://user-images.githubusercontent.com/4199937/113510976-b2407d00-955d-11eb-8729-db48f0801dae.jpg" width="60%" height="60%" alt="Example_14">
 
+<img src="https://user-images.githubusercontent.com/4199937/113511003-dac87700-955d-11eb-89cd-189472b89e7f.jpg" width="60%" height="60%" alt="Example_15">
 
