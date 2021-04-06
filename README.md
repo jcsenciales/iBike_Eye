@@ -3,6 +3,7 @@
 Intelligent Automatic Photo shooter for my Mountain Bike
 
 [![Watch the video](https://user-images.githubusercontent.com/4199937/113694741-6e21b980-96d0-11eb-8a50-110985f31798.png)](https://user-images.githubusercontent.com/4199937/113674956-175db500-96bb-11eb-9dd5-73f872fc44c0.mp4)
+Watch the video above 
 
 
 ## Motivation
