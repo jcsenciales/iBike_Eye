@@ -2,6 +2,9 @@
 
 Intelligent Automatic Photo shooter for my Mountain Bike
 
+[![Watch the video](https://user-images.githubusercontent.com/4199937/113694741-6e21b980-96d0-11eb-8a50-110985f31798.png)](https://user-images.githubusercontent.com/4199937/113674956-175db500-96bb-11eb-9dd5-73f872fc44c0.mp4)
+
+
 ## Motivation
 
 How many times you are riding at your favorite MTB route, and you see a horse or a cow or a great boat and you want to take
