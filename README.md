@@ -145,8 +145,9 @@ The memory comsuptions is minimal, remember all the deep_learning model process 
 2. [RaspBerry pi 4 MODEL B 4GB](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/): 49€
 3. Raspberry case: 7.20€
 4. Raspberry Fan: 5€
-5. 32GB Microsd class I: 7 €
-6. mini switch: 0 €, it is from an old car cd player.
+5. Battery Power Bank 5v USB 10400 mAh: 16€
+6. 32GB Microsd class I: 7 €
+7. mini switch: 0 €, it is from an old car cd player.
 
 
 ## TO-DO & More Ideas
